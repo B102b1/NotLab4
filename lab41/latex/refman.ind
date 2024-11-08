@@ -1,0 +1,56 @@
+\begin{theindex}
+
+  \item {decrypt}
+    \subitem {table\_cipher}, \hyperpage{8}
+
+  \indexspace
+
+  \item {encrypt}
+    \subitem {table\_cipher}, \hyperpage{8}
+
+  \indexspace
+
+  \item {get\_action}
+    \subitem {UI}, \hyperpage{13}
+  \item {get\_key}
+    \subitem {UI}, \hyperpage{13}
+  \item {get\_string}
+    \subitem {UI}, \hyperpage{13}
+
+  \indexspace
+
+  \item {key\_validation}
+    \subitem {table\_cipher}, \hyperpage{8}
+
+  \indexspace
+
+  \item {main.cpp}, \hyperpage{15}
+
+  \indexspace
+
+  \item {table\_cipher}, \hyperpage{7}
+    \subitem {decrypt}, \hyperpage{8}
+    \subitem {encrypt}, \hyperpage{8}
+    \subitem {key\_validation}, \hyperpage{8}
+    \subitem {text\_validation}, \hyperpage{9}
+    \subitem {write\_str\_to\_v}, \hyperpage{9, 10}
+  \item {table\_cipher.cpp}, \hyperpage{16}
+  \item {table\_cipher.h}, \hyperpage{17}
+  \item {table\_error}, \hyperpage{10}
+  \item {text\_validation}
+    \subitem {table\_cipher}, \hyperpage{9}
+
+  \indexspace
+
+  \item {UI}, \hyperpage{12}
+    \subitem {get\_action}, \hyperpage{13}
+    \subitem {get\_key}, \hyperpage{13}
+    \subitem {get\_string}, \hyperpage{13}
+    \subitem {UI}, \hyperpage{12}
+
+  \indexspace
+
+  \item {write\_str\_to\_v}
+    \subitem {table\_cipher}, \hyperpage{9, 10}
+
+\end{theindex}

@@ -1,0 +1,103 @@
+\hypertarget{classUI}{}\doxysection{Класс UI}
+\label{classUI}\index{UI@{UI}}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUI_a78e43edc270c36b519ad5561fb106cd7}{UI}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Конструктор инициализации \end{DoxyCompactList}\item 
+uint \mbox{\hyperlink{classUI_a30792a7a2d9c2fceb5852811662da744}{get\+\_\+action}} ()
+\begin{DoxyCompactList}\small\item\em Метод получения типа операции \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classUI_a56d73bdb7b0f9d219f85c4880e10d81f}{get\+\_\+key}} ()
+\begin{DoxyCompactList}\small\item\em Метод получения ключа \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUI_a8cc78e7d689074fcbd74566000cceeb8}{get\+\_\+string}} ()
+\begin{DoxyCompactList}\small\item\em Метод получения строки \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUI_a6ced1385c2c71eb0b3d022c0c665fabd}\label{classUI_a6ced1385c2c71eb0b3d022c0c665fabd}} 
+po\+::options\+\_\+description {\bfseries desc}
+\item 
+\mbox{\Hypertarget{classUI_ac956c417d96ce3fc7d3e760e9479434a}\label{classUI_ac956c417d96ce3fc7d3e760e9479434a}} 
+po\+::variables\+\_\+map {\bfseries vm}
+\item 
+\mbox{\Hypertarget{classUI_af3041596938b44c4b71ae69cde8d104d}\label{classUI_af3041596938b44c4b71ae69cde8d104d}} 
+std\+::string \mbox{\hyperlink{classUI_af3041596938b44c4b71ae69cde8d104d}{st}}
+\begin{DoxyCompactList}\small\item\em Обрабатываемая строка \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUI_ae5852b12de948242db8790f84c812102}\label{classUI_ae5852b12de948242db8790f84c812102}} 
+uint \mbox{\hyperlink{classUI_ae5852b12de948242db8790f84c812102}{action}}
+\begin{DoxyCompactList}\small\item\em Тип операции \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUI_a05b12a3d5d8c381438c43d7815d05b56}\label{classUI_a05b12a3d5d8c381438c43d7815d05b56}} 
+double \mbox{\hyperlink{classUI_a05b12a3d5d8c381438c43d7815d05b56}{key}}
+\begin{DoxyCompactList}\small\item\em Ключ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classUI_a78e43edc270c36b519ad5561fb106cd7}\label{classUI_a78e43edc270c36b519ad5561fb106cd7}} 
+\index{UI@{UI}!UI@{UI}}
+\index{UI@{UI}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{UI()}{UI()}}
+{\footnotesize\ttfamily UI\+::\+UI (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Конструктор инициализации 
+
+Происходит разбор комстроки, инициализируются st,action,key На основе полученных данных вызывается соответствующий метод \mbox{\hyperlink{classtable__cipher}{table\+\_\+cipher}} 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em argc} & Количество параметров комстроки \\
+\hline
+\mbox{\texttt{ in}}  & {\em argv} & Значения параметров комстроки \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classtable__error}{table\+\_\+error}},если} & создании оъекта класса будет выявлена ошибка\+: текст содержит не буквы, ключ слишком длинный или короткий \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classUI_a30792a7a2d9c2fceb5852811662da744}\label{classUI_a30792a7a2d9c2fceb5852811662da744}} 
+\index{UI@{UI}!get\_action@{get\_action}}
+\index{get\_action@{get\_action}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{get\_action()}{get\_action()}}
+{\footnotesize\ttfamily uint UI\+::get\+\_\+action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод получения типа операции 
+
+Если значение параметра не введено, то выводится справка \begin{DoxyReturn}{Возвращает}
+Численное значение типа операции 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUI_a56d73bdb7b0f9d219f85c4880e10d81f}\label{classUI_a56d73bdb7b0f9d219f85c4880e10d81f}} 
+\index{UI@{UI}!get\_key@{get\_key}}
+\index{get\_key@{get\_key}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{get\_key()}{get\_key()}}
+{\footnotesize\ttfamily double UI\+::get\+\_\+key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод получения ключа 
+
+Если значение параметра не введено, то выводится справка \begin{DoxyReturn}{Возвращает}
+Значение ключа 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUI_a8cc78e7d689074fcbd74566000cceeb8}\label{classUI_a8cc78e7d689074fcbd74566000cceeb8}} 
+\index{UI@{UI}!get\_string@{get\_string}}
+\index{get\_string@{get\_string}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{get\_string()}{get\_string()}}
+{\footnotesize\ttfamily std\+::string UI\+::get\+\_\+string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод получения строки 
+
+Если значение параметра не введено, то выводится справка \begin{DoxyReturn}{Возвращает}
+Строка для обработки 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
